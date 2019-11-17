@@ -7,7 +7,7 @@ import java.time.Instant;
 @Service
 public class SampleService {
 
-    public void printTime() {
-        System.out.println(Instant.now());
+    public Instant getTime() {
+        return Instant.now();
     }
 }
