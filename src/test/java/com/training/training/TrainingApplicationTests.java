@@ -8,6 +8,7 @@ class TrainingApplicationTests {
 
 	@Test
 	void contextLoads() {
+		// docker run --name db-mysql -e MYSQL_ROOT_PASSWORD=root -d mysql:latest
 	}
 
 }
